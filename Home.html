@@ -15,10 +15,6 @@
         background-color: #ededed;
         margin: auto
     }
-    .nav {
-        width: 100%;
-        background-color: #afafaf;
-    }
     .filler {
         width: 100%;
         height: 775px;
@@ -28,6 +24,33 @@
         background-color: #2a2a2a;
         color: #d0d0d0;
     }
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #a0a0a0;
+    }
+    li{
+        float: left;
+        border-right: 1px solid black;
+    }
+    li a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 16px;
+    }
+    li a:hover{
+        background-color: #b0b0b0;
+    }
+    .active{
+        background-color: #1f1f1f;
+    }
+    .ad{
+        float: right;
+        background-color: ;
+    }
 </style>
 <body>
 <div class="container">
@@ -36,12 +59,12 @@
 <img src="../2023HTMLProject/Images/download.png" alt="Website" height="27.625" width="28.5"/>
     H.T.M.Help
 </h1></div>
-    <div class="nav">
-    <h3>
-        <a href="Home.html" alt="Home Page">Home Page</a>
-        <a href="Tags.html" alt="Tags">Tags</a>
-        <a href="ContactUs.html" alt="Contact Us">Contact Us</a>
-    </h3>
+    <div class="container">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Tags</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
     </div>
     <div class="filler"> </div>
 <footer class="foot">
